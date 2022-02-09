@@ -6,7 +6,7 @@ Caduceus is meant to assist with accountability at the staff level in a hospital
 
 * Nurses dealing with difficult or rushed doctors.
 
-  > As a nurse, I find that communication is often lacking between nurses and doctors, so I need an app that lets me see exactly what the doctor requires for a given patient without having to track them down or decypher horrible handwriting on a patient's chart.
+  > As a nurse, I find that communication is often lacking between nurses and doctors, so I need an app that lets me see exactly what the doctor requires for a given patient without having to track them down or decipher horrible handwriting on a patient's chart.
 
 * Doctors who worry about their orders being missed or forgotten.
 
@@ -20,9 +20,9 @@ TBD
 
 Patients will be able to log in and see their records as well as any other information in their file the doctor flags as visible.
 
-Nurses will have access to the records of patients assigned to them as well as append notes and use the application to keep track of routine and singular care checks/tasks/etc required by the doctor.  Clocking in will be done via the application, and they will be able to check their work schedule and send messages to other staff.
+Nurses will have access to the records of patients assigned to them as well as append notes and use the application to keep track of routine and singular care checks/tasks/etc. required by the doctor.  Clocking in will be done via the application, and they will be able to check their work schedule and send messages to other staff.
 
-Doctors will have access to all patient records and be able to edit them (versions prior to editing will be saved server side).  They will also be able to flag a patient so a warning banner pops up for high priority issues (allergies, etc).  Doctors will also be able to set specific checks/tasks for nursing staff per patient.
+Doctors will have access to all patient records and be able to edit them (versions prior to editing will be saved server side).  They will also be able to flag a patient so a warning banner pops up for high priority issues (allergies, etc.).  Doctors will also be able to set specific checks/tasks for nursing staff per patient.
 
 Admin staff will have no access to patient records, but will be able to set work schedules, evaluations, training classes, other HR needs.
 
