@@ -1,51 +1,55 @@
 ## Summary
 
-Replace this paragraph with one or more paragraphs summarizing the purpose and operation of the software you propose to develop in this project.
+Caduceus is meant to assist with accountability at the staff level in a hospital, as well as facilitate communication amongst staff.
 
 ## Intended users
 
-Write a bullet list here, including at least 2 different types of intended users. Make it reasonably specific; simply saying "Anyone who likes games" (for example) is not sufficiently specific.
+* Nurses dealing with difficult or rushed doctors.
 
-For each type of intended user, include at least 1 _user story_. A user story is usually just 1 simple sentence (no more than 2 sentences), in the voice of the intended user, stating a specific task that the user performs using the app, and the benefit that will be obtained. The simplest user stories take the form 
+  > As a nurse, I find that communication is often lacking between nurses and doctors, so I need an app that lets me see exactly what the doctor requires for a given patient without having to track them down or decypher horrible handwriting on a patient's chart.
 
-> As a <type of intended user (_who_)> I want to <use of feature or functionality (_what_)> so that <benefit (_why_).
+* Doctors who worry about their orders being missed or forgotten.
 
-Please avoid writing too much for the user story. In particular, if the way the user story is written makes it difficult to see the _who_, _what_, and _why_, then you probably need to re-write it more directly. (On the other hand, a user story should not simply be a re-statement of the intended user description.)
-
-Here is one (silly) example of an intended user, along with a user story. Please note not only the conceptual structure, but the Markdown syntax used.
-
-* People who like to use randomness in their decision making.
-
-    > As someone who enjoys randomness in my life, I need an app that lets me flip a virtual coin or roll one or more virtual dice, so that I can base my decisions on randomness, without having to carry coins or dice in my pockets.
-
+    > As a doctor, we sometimes deal with nurses who are exhausted and occasionally forget things.  I need an app that lets me set my treatments or checks with a schedule attached that lets me be certain they won't forget anything thanks to an alarm tagged to that task.
+  > 
 ## Client component
+
+TBD
 
 ### Functionality
 
-List the key functional aspects that will be provided by the user interface---i.e. tell us what the user will be able to do in the GUI.
+Patients will be able to log in and see their records as well as any other information in their file the doctor flags as visible.
+
+Nurses will have access to the records of patients assigned to them as well as append notes and use the application to keep track of routine and singular care checks/tasks/etc required by the doctor.  Clocking in will be done via the application, and they will be able to check their work schedule and send messages to other staff.
+
+Doctors will have access to all patient records and be able to edit them (versions prior to editing will be saved server side).  They will also be able to flag a patient so a warning banner pops up for high priority issues (allergies, etc).  Doctors will also be able to set specific checks/tasks for nursing staff per patient.
+
+Admin staff will have no access to patient records, but will be able to set work schedules, evaluations, training classes, other HR needs.
 
 ### Persistent data
 
-List the content that will be stored on the client side. This should include any information that a user of your system should expect to be maintained locally (i.e. without connection to a server) across multiple sessions of use, on a single device. 
+Hours worked, logged on calendar. Messages sent to/from user.
     
 ### Device/external services
 
-If the client component will need to access special services of the device (e.g. sensors, contacts, messaging), list them here. Also, if the client component will need to access already-existing external services (e.g. real-time weather data, Open Trivia Database), those should also be listed here; any such references to external services should include links to the main page or API description page for the service.
+Application will require speakers, clock, calendar, wi-fi or internet, and whatever 2FA service is used.
     
 ## Server component
 
+TBD
+
 ### Functionality
 
-List the key functional aspects that will be provided by the server component---i.e. tell us what parts of the system functionality will be performed by the server.
+TBD
 
 ### Persistent data
 
-List the content that will be stored on the server side. This should include any information that a user of your system should expect to be accessible across multiple sessions of use, even if accessed from separate devices. In addition, if there will be data originating from some users that will then be accessible by other users, it should be part of the persistent data on the server. 
+Patient records, staff records, task templates, messages sent from one user to another.
     
 ### External services
 
-If the server component will need to access already-existing external services (e.g. stock prices, Open Movie Database), those should also be listed here. Any such references to external services should include links to the main page or API description page for the service.
+TBD
     
 ## Stretch goals/possible enhancements 
 
-If you can identify functional elements of the software that you think might not be achievable in the scope of the project, but which would nonetheless add significant value if you were able to include them, list them here. For now, we recommend listing them in order of complexity/amount of work, from the least to the most.
+Possible QR code scanning capability for medical supply stocking purposes.
