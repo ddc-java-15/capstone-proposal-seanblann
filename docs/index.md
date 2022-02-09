@@ -11,7 +11,7 @@ Caduceus is meant to assist with accountability at the staff level in a hospital
 * Doctors who worry about their orders being missed or forgotten.
 
     > As a doctor, we sometimes deal with nurses who are exhausted and occasionally forget things.  I need an app that lets me set my treatments or checks with a schedule attached that lets me be certain they won't forget anything thanks to an alarm tagged to that task.
-  > 
+
 ## Client component
 
 TBD
