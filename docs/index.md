@@ -36,7 +36,7 @@ Application will require speakers, clock, calendar, wi-fi or internet, and whate
     
 ## Server component
 
-TBD
+Search functions for patient records, work schedules.  Enforcement of task completion. Filtering for high priority flagging.  Time tracking for clocking in/out.
 
 ### Functionality
 
